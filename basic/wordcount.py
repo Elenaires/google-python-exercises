@@ -75,7 +75,7 @@ def print_top(filename):
 	items = sorted(dictionary.items(), key=MyFn, reverse=True)
 	
 	for item in items[:20]:
-		print item
+		print item[0], item[1]
 	
 
 # This basic command line argument parsing code is provided and
